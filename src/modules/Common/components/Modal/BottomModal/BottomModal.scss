@@ -1,0 +1,16 @@
+.bottom-modal {
+  &__dialog {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: -150%;
+    background-color: white;
+    border-radius: 8px;
+    transition: all 0.7s ease;
+    z-index: 20;
+
+    &--open {
+      bottom: 0;
+    }
+  }
+}
