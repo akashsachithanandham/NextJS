@@ -1,7 +1,7 @@
 import React from 'react'
 import BottomStickyStyles from './index.module.css'
-import SecondaryButton from '@/modules/Common/SecondaryButton';
-import PrimaryButton from '@/modules/Common/PrimaryButton';
+import SecondaryButton from '@/modules/Common/components/SecondaryButton';
+import PrimaryButton from '@/modules/Common/components/PrimaryButton';
 
 const primaryButtonText = 'Book Clinic Vist';
 const secondaryButtonText = 'Call Now';
