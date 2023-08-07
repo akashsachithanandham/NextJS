@@ -1,0 +1,12 @@
+.primary_button {
+  background-color: #199FD9;
+  height: 48px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}

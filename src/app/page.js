@@ -5,7 +5,7 @@ import Demo from './[city]/clinic/[slug]/page'
 export default function Home() {
   return (
     <div>
-      <Demo />
+      Home Page
     </div>
   )
 }

@@ -1,0 +1,14 @@
+.bottom_sticky_wrapper {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 0px 0px 8px #ddd;
+  padding: 16px 20px 16px 20px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}

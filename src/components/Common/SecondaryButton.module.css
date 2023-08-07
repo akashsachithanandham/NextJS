@@ -1,0 +1,12 @@
+.secondary_button {
+  background-color: white;
+  height: 48px;
+  font-weight: 700;
+  font-size: 14px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #2D2D32
+}
