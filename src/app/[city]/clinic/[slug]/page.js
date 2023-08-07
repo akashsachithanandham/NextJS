@@ -1,6 +1,7 @@
-import ClinicCard from '@/components/HospitalProfile/ClinicCard'
+import ClinicCard from '@/modules/ClinicProfile/components/ClinicCard'
 import React from 'react'
-import BottomStickySection from '@/components/HospitalProfile/BottomStickySection'
+import BottomStickySection from '@/modules/ClinicProfile/components/BottomStickySection'
+
 
 function ClinicProfilePage() {
   return (
