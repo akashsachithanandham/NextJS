@@ -1,10 +1,10 @@
 import React from 'react'
-import  PrimayButtonStyles from './PrimaryButton.module.css';
+import './PrimaryButton.scss';
 
-function PrimaryButton({ button_text, onClickHandler}) {
+function PrimaryButton({ buttonText, onClickHandler}) {
   return (
-    <div className={PrimayButtonStyles.primary_button} onClick={onClickHandler}>
-      {button_text}
+    <div className='primary-button' onClick={onClickHandler}>
+      {buttonText}
     </div>
   )
 }

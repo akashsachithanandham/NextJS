@@ -1,10 +1,10 @@
 import React from 'react'
-import SecondaryButtonStyles from './SecondaryButton.module.css'
+import './SecondaryButton.scss'
 
-function SecondaryButton({button_text, onClickHandler}) {
+function SecondaryButton({buttonText, onClickHandler}) {
   return (
-    <div className={SecondaryButtonStyles.secondary_button} onClick={onClickHandler}>
-      {button_text}
+    <div className='secondary-button' onClick={onClickHandler}>
+      {buttonText}
     </div>
   )
 }
