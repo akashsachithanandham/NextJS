@@ -1,6 +1,7 @@
-import ClinicCard from '@/modules/ClinicProfile/components/ClinicCard'
+
 import React from 'react'
 import BottomStickySection from '@/modules/ClinicProfile/components/BottomStickySection'
+import PatientStories from '@/modules/ClinicProfile/components/PatientStories'
 
 
 function ClinicProfilePage({params, searchParams}) {
@@ -11,7 +12,7 @@ function ClinicProfilePage({params, searchParams}) {
   }
   return (
     <div>
-      <ClinicCard routeInfo={routeInfo}/>
+      <PatientStories routeInfo={routeInfo} />
       <BottomStickySection routeInfo={routeInfo} />
     </div>
     

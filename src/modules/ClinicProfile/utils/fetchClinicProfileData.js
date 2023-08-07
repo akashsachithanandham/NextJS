@@ -31,15 +31,18 @@ const fetchClinicProfileData = async (payload) =>{
   const requestURL = `${API_HOST}/marketplace-api/mweb/profile/establishment?${parsedQueryParams}`;
   
   const response = await fetch(requestURL);
-  console.log(requestURL);
-  console.log("inside fetch function")
  
   if (!response.ok) {
     // This will activate the closest `error.js` Error Boundary
     throw new Error('Failed to fetch data')
   }
+
+  if (typeof window !== "undefined") {
+    window.clinic_profile_details = response.json();
+  }
+  console.log();
  
-  return response.json()
+  return response;
 }
 
 export default fetchClinicProfileData;
