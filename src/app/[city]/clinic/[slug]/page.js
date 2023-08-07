@@ -3,11 +3,16 @@ import React from 'react'
 import BottomStickySection from '@/modules/ClinicProfile/components/BottomStickySection'
 
 
-function ClinicProfilePage() {
+function ClinicProfilePage({params, searchParams}) {
+
+  const routeInfo = {
+    ...params,
+    searchParams
+  }
   return (
     <div>
-      <ClinicCard/>
-      <BottomStickySection />
+      <ClinicCard routeInfo={routeInfo}/>
+      <BottomStickySection routeInfo={routeInfo} />
     </div>
     
   )
