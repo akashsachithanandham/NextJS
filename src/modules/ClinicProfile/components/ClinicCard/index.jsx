@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import ClinicPhoto from './ClinicPhoto'
+import ClinicDetails from './ClinicDetails'
+import SlotDetails from '@/modules/Common/components/SlotDetails'
+
+import ClinicCardStyles from './index.module.css';
 
 function ClinicCard() {
   return (
-    <div>
+    <Fragment>
       <ClinicPhoto />
-    </div>
+      <ClinicDetails />
+      <SlotDetails />
+      <div className={ClinicCardStyles.c_divider} />
+    </Fragment>
   )
 }
 

@@ -1,0 +1,52 @@
+.c_slot_details {
+  padding: 20px 0 0;
+}
+
+.c_slot_details_title {
+  color: #00A500;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  padding-left: 20px;
+}
+
+.c_slot_details_slots {
+  overflow-x: scroll;
+  display: inline-block;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.c_slot_details_slots::-webkit-scrollbar {
+  padding: 5px;
+}
+
+.c_slot_card {
+  border: 1px solid #F0F0F5;
+  border-radius: 8px;
+  margin-right: 20px;
+  height: 75px;
+  min-width: 156px;
+  padding-left: 12px;
+  padding-top: 8px;
+  display: inline-block;
+}
+
+.c_slot_card:first-child {
+  margin-left: 20px;
+}
+
+.c_slot_card_title, .c_slot_card_slot {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+
+.c_slot_card_title {
+  font-weight: bold;
+}
+
+.c_slot_card_slot {
+  color: #787887;
+}

@@ -1,0 +1,16 @@
+.c_navbar {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  background-color: #fafafa;
+  color: black;
+}
+
+.c_navbar_logo {
+  margin: auto;
+}
+
+.c_navbar_search {
+  margin-left: auto;
+}

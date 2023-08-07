@@ -1,7 +1,7 @@
-import ClinicCard from '@/modules/ClinicProfile/components/ClinicCard'
 import React from 'react'
+import NavBar from '@/modules/Common/components/NavBar'
+import ClinicCard from '@/modules/ClinicProfile/components/ClinicCard'
 import BottomStickySection from '@/modules/ClinicProfile/components/BottomStickySection'
-
 
 function ClinicProfilePage({params, searchParams}) {
 
@@ -11,6 +11,7 @@ function ClinicProfilePage({params, searchParams}) {
   }
   return (
     <div>
+      <NavBar />
       <ClinicCard routeInfo={routeInfo}/>
       <BottomStickySection routeInfo={routeInfo} />
     </div>

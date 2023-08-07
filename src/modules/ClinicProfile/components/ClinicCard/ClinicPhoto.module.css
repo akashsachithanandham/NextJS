@@ -2,3 +2,14 @@
   width: 100%;
   height: 168px
 }
+
+.clinic_profile {
+  width: 100px;
+  min-height: 100px;
+  border-radius: 8px;
+  background-color: white;
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+  border: 1px solid #F0F0F5;
+}
