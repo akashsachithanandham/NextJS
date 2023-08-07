@@ -39,7 +39,8 @@ const fetchClinicProfileData = async (payload) =>{
     throw new Error('Failed to fetch data')
   }
  
-  return response.json()
+  let responseJson = await response.json();
+  return responseJson?.data || {};
 }
 
 export default fetchClinicProfileData;
