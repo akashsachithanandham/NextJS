@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import ClinicDetailsStyles from './ClinicDetails.module.css';
+import ClinicDetailsStyles from './ClinicDetails.module.scss';
 
 function ClinicDetails() {
   return (
@@ -11,7 +11,13 @@ function ClinicDetails() {
           <div className={ClinicDetailsStyles.c_clinic_details_address}>
             No. 3rd floor, L-167, Sector 6, Outer Ring Road, HSR Layout, Bangalore, Karnataka, Landmark: Focus Diagnostics, Bangalore
           </div>
+          <a
+          href={`https://www.google.com/maps/dir/?api=1&destination=12.89,77.612`}
+          target="_blank"
+          data-qa-id="google_maps"
+        >
           <div className={ClinicDetailsStyles.c_clinic_details_direction}>Get Direction</div>
+        </a>
         </div>
       </div>
       <div className={ClinicDetailsStyles.c_clinic_details_reviews}>

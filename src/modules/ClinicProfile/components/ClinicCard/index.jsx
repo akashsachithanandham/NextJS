@@ -4,8 +4,20 @@ import ClinicDetails from './ClinicDetails'
 import SlotDetails from '@/modules/Common/components/SlotDetails'
 
 import ClinicCardStyles from './index.module.css';
+import fetchClinicProfileData from '../../utils/fetchClinicProfileData';
 
-function ClinicCard() {
+async function ClinicCard({ routeInfo }) {
+
+  const clinicProfileDetails = await fetchClinicProfileData(routeInfo);
+
+  console.log('============> ', clinicProfileDetails);
+
+  const getProfileLogo = () => {
+    console.log('=========> res', clinicProfileDetails.formData);
+  }
+
+  getProfileLogo();
+
   return (
     <Fragment>
       <ClinicPhoto />

@@ -1,0 +1,78 @@
+.c_clinic_details {
+  display: flex;
+  padding: 0 20px 20px;
+  margin-top: -46px;
+  border-bottom: 1px solid #F0F0F5;
+
+  &_content {
+    width: 80%;
+  }
+
+  &_header {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+  }
+
+  &_subhead, &_address_section {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 4px 0;
+  }
+
+  &_address {
+    font-weight: bold;
+    width: 65%;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+
+    &_section {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &_direction {
+    color: #199FD9;
+    text-decoration: underline;
+  }
+
+  &_reviews {
+    border: 1px solid #F0F0F5;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 71px;
+    width: 62px;
+  }
+
+  &_rating {
+    background-color: #00A500;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  &_review {
+
+    &_count {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: bold;
+    }
+
+    &_text {
+      font-size: 12px;
+      line-height: 14px;
+      color: #B4B4BE;
+    }
+
+    &_count,&_text {
+      text-align: center;
+    }
+  }
+}
