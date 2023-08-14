@@ -1,0 +1,47 @@
+.profile-info {
+  display: flex;
+  border-bottom: 1px solid #F0F0F5;
+  padding-bottom: 8px;
+
+  &__col-left {
+
+  }
+
+  &__photo {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  &__col-right {
+    flex-grow: 1;
+    margin-left: 24px;
+  }
+
+  &__name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2D2D32;
+  }
+
+  &__speciality, &__experience, &__feedback {
+    margin-top: 4px;
+    font-size: 14px;
+    color: #2D2D32;
+  }
+
+  &__feedback {
+    font-weight: bold;
+    display: flex;
+  }
+
+  &__rating {
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+  }
+
+  &__review {
+    display: flex;
+    align-items: center;
+  }
+}

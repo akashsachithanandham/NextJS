@@ -1,0 +1,25 @@
+.establishment-profile-faqs {
+  padding: 20px;
+
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2D2D32;
+    margin-bottom: 16px;
+  }
+
+  &__cta {
+    font-size: 14px;
+    color: #2D2D32;
+    text-align: center;
+    padding: 12px 0;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #2D2D32; 
+    margin-top: 24px;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+  }
+}

@@ -11,7 +11,7 @@ const fetchClinicProfileData = async (payload) =>{
 
   const queryParams = {
     slug: encodeURIComponent(slug),
-    page: 1,
+    page: 0,
     size: 10,
     platform: 'mobile_web',
     city: city,

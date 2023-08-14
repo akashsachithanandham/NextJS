@@ -1,0 +1,18 @@
+.locality-info {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #2D2D32;
+
+  &__locality-name {
+    font-weight: bold;
+  }
+
+  &__separator {
+    margin-left: 14px;
+    margin-right: 8px;
+  }
+
+  &__estab-name {
+    align-self: flex-end;
+  }
+}

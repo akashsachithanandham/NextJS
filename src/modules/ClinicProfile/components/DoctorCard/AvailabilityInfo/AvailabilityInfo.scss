@@ -1,0 +1,12 @@
+.availability-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  margin-left: 4px;
+
+  &__text {
+    font-size: 12px;
+    margin-left: 5px;
+    color: #2D2D32;
+  }
+}

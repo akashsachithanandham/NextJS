@@ -1,0 +1,28 @@
+.accordion {
+  background-color: #FFFFFF;
+  color: #2D2D32;
+  padding: 20px 0;
+  border-bottom: 1px solid #F0F0F5;
+
+  &__header {
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__body {
+    font-size: 14px;
+    max-height: 0;
+    overflow: hidden;
+    height: 0;
+    transition: all 200ms ease;
+
+    &--open {
+      margin-top: 10px;
+      max-height: max-content;
+      height: auto;
+    }
+  }
+}
